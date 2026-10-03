@@ -1,0 +1,10 @@
+fastapi>=0.115
+uvicorn[standard]>=0.30
+pydantic-settings>=2.4
+anthropic>=1.0
+httpx>=0.27
+av>=13.0          # PyAV: Opus encode/decode + resample (bundles ffmpeg/libopus)
+numpy>=1.26
+webrtcvad-wheels>=2.0.14
+edge-tts>=6.1     # chỉ dùng khi dev, không dùng cho thương mại
+pytest>=8.0
